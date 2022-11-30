@@ -1,4 +1,4 @@
-#Problem 8: Write a program to take some numbers using an array as input and show the array as output.
+#Problem 8 : Write a program to take some numbers using an array as input and show the array as output.
 .data
 	array: .space 2000 #2000 bytes
 	space: .asciiz " "
