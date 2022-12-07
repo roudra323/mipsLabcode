@@ -67,6 +67,9 @@ la $a0,output3
 syscall
 
 div $t3, $s1, 4 
+##
+addi $t3,$t3,1 
+##
 li $v0,1
 move $a0,$t3
 syscall 
