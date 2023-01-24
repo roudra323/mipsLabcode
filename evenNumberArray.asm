@@ -50,8 +50,7 @@ main:
 		mfhi $s4 #s4=reminder
 		
 		#checking even or not
-		beqz $s4, printEven #if reminder==0,then even
-		#for finding Odd numbers, here beqz will be replaced with bnez 
+		beqz $s4, printEven #if reminder==0,then even #for finding Odd numbers, here beqz will be replaced with bnez 
 		#increment index, s0= s0+4
 		addi $s0,$s0,4 #i=i+4
 		j printLoop
